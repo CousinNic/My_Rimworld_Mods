@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>ReinforcedWalls</defName>
+    <label>Reinforced Walls</label>
+    <description>Build more expensive much stronger walls.</description>
+    <tab>Reinforced</tab>
+	<baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>ReinforcedDoors</defName>
+    <label>Reinforced Doors</label>
+    <description>Build more expensive much stronger Doors.</description>
+	<prerequisites>
+	<li>ReinforcedWalls</li>
+	</prerequisites>
+    <tab>Reinforced</tab>
+	<baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>ReinforcedEmbrasures</defName>
+    <label>Reinforced Embrasures</label>
+    <description>Build more expensive much stronger embrasures.</description>
+	<prerequisites>
+	<li>ReinforcedDoors</li>
+	</prerequisites>
+    <tab>Reinforced</tab>
+	<baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+  </ResearchProjectDef>
+
+	<ResearchProjectDef>
+    <defName>Enjoy</defName>
+    <label>Enjoy!!!</label>
+    <description>All parts to this mod are the Reinforced Structures mod, and Tiered Concrete mod, use both to get the strongest posible buildings. Thanks for trying my mod and keep an eye out for new adations to this pack. Happy defending!</description>
+    <tab>Reinforced</tab>
+	<baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>5.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>

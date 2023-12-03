@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>DoBillsConcreteMaking</defName>
+    <label>makeConcrete</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>90</priorityInType>
+    <fixedBillGiverDefs>
+      <li>CementMixer</li>
+    </fixedBillGiverDefs>
+    <verb>MakeCement</verb>
+    <gerund>Mixing cement at</gerund>
+     <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+</Defs>
+
+
+
+
+
+

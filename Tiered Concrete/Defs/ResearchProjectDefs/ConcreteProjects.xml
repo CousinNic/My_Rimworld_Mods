@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>ConcreteMixing</defName>
+    <label>Concrete Mixing</label>
+    <description>learn the process of crushing stone to concrete.</description>
+	<tab>Reinforced</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>ConcreteRecipe</defName>
+    <label>Concrete Recipe</label>
+    <description>learn the recipe for concrete.</description>
+	<tab>Reinforced</tab>
+	<prerequisites>
+	<li>ConcreteMixing</li>
+	</prerequisites>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>SteelConcreteInfusion</defName>
+    <label>Steel Concrete Infusion</label>
+    <description>learn a new steel concrete infusion for stronger structures.</description>
+	<tab>Reinforced</tab>
+	<prerequisites>
+	<li>ConcreteRecipe</li>
+	</prerequisites>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>PlasteelConcreteInfusion</defName>
+    <label>Plasteel Concrete Infusion</label>
+    <description>learn a very carful mixture of powered plasteel and concrete for extreme strength.</description>
+	<tab>Reinforced</tab>
+	<prerequisites>
+	<li>SteelConcreteInfusion</li>
+	</prerequisites>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Enjoy</defName>
+    <label>Enjoy!!!</label>
+    <description>All parts to this mod are the Reinforced Structures mod, and Tiered Concrete mod, use both to get the strongest posible buildings. Thanks for trying my mod and keep an eye out for new adations to this pack. Happy defending!</description>
+    <tab>Reinforced</tab>
+	<baseCost>1</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>5.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>

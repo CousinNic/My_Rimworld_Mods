@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<RoofDef>
+    <defName>RoofConstructed</defName>
+    <label>reinforced roof</label>
+    <isThickRoof>true</isThickRoof>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <soundPunchThrough>PunchThroughRoofMetal</soundPunchThrough>
+  </RoofDef>
+
+</Defs>

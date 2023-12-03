@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>ReinforcedWalls</defName>
+    <label>Reinforced Walls</label>
+    <description>Build more expensive much stronger walls and embrasures.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>5.00</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
